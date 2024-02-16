@@ -9,7 +9,7 @@
     $errors = array(); 
 	$_SESSION['success'] = "";
 
-    $db=mysqli_connect('localhost', 'root', '', 'rana');
+    $db=mysqli_connect('sql111.infinityfree.com', 'if0_35906397', '3HkwaqmTSf5J0', 'if0_35906397_Rana');
     if (isset($_POST['reg_user'])) {
         
 // receive all input values from the form
